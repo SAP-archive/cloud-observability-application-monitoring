@@ -2,7 +2,7 @@
 # Exercise A3: Platform monitoring API
 
 #### Objective
-In this exercise, you will learn how to configure and consume monitoring RET API to get the state or the metrics details for your Java applications that are running on SAP Cloud Platform.<br /><br />
+In this exercise, you will learn how to configure and consume monitoring REST API to get the state or the metrics details for your Java applications that are running on SAP Cloud Platform.<br /><br />
 
 
 #### Estimated time
@@ -13,7 +13,7 @@ In this exercise, you will learn how to configure and consume monitoring RET API
 
 Platform APIs of SAP Cloud Platform are protected with OAuth 2.0 client credentials. So we need to create an OAuth client and obtain an OAuth API access token from the OAuth access token endpoint to call the platform API methods.<br /><br />
 
-1. Click on the subaccount name (e.g. **p2000499901trial**) in the breadcrumb to go back to the subaccount level and click on **OAuth** under the **Security** section.<br /><br />
+1. Click on the subaccount name (e.g. **p2000499901trial**) in the breadcrumb in order to go back to the subaccount level and click on **OAuth** under the **Security** section.<br /><br />
 ![](../../images/a3-api-oauth.png)<br /><br />
 
 1. Go to the **Platform API** tab and press the button **Create API client**.<br /><br />
@@ -41,7 +41,7 @@ Platform APIs of SAP Cloud Platform are protected with OAuth 2.0 client credenti
     * Method: `GET`
     * URL: ` https://api.hanatrial.ondemand.com/monitoring/v2/accounts/<YOUR-SUBACCOUNT-NAME>/apps/espmcloudweb/metrics` (e.g. https://api.hanatrial.ondemand.com/monitoring/v2/accounts/p2000499901trial/apps/espmcloudweb/metrics)
     * Headers > KEY: `Authorization`
-    * Headers > VALUE: `Bearer + <YOUR-TOKEN>` (e.g. Bearer 638864c01ed468a37e6ee46c9121d6)<br /><br />
+    * Headers > VALUE: `Bearer <YOUR-TOKEN>` (e.g. Bearer 638864c01ed468a37e6ee46c9121d6)<br /><br />
 ![](../../images/a3-api-postman-metrics.png)<br /><br />
 
 1. Press the button **Send** to get the metrics from the monitoring API.<br /><br />

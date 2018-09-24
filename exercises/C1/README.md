@@ -23,9 +23,8 @@ As explained on the [Dynatrace documentation](https://www.dynatrace.com/support/
       * Host monitoring (CPU, memory, disk utilization every 10 seconds)
       * Web server monitoring (Apache, ISS, Nginx)
       * Deep process monitoring (Java, .NET, PHP, Node.js)
-      * Database monitoring (PostgreSQL, MongoDB, Redis, RabbitMQ)
       * Network monitoring (Traffic volume per host/process, TCP errors, connectivity)
-      * Real user monitoring (currently disabled by default for GDPR compliance reasons)
+      * Real user monitoring
       * Synthetic monitors
       * Extensions and plugins for technologies that are not natively supported
 
@@ -43,7 +42,7 @@ As explained on the [Dynatrace documentation](https://www.dynatrace.com/support/
 Dynatrace has its own terminology that is sometimes not intuitive for developers used to the SAP Cloud Platform terminology. Here is a short list about the most important terms:
 
 * **Application**: Web or mobile application in which the Real User Monitoring is enabled. In SAP Cloud Platform, it represents Web-UI part of a Java web application or HTML5 UI served over the HTML5 runtime with manually integrated Dynatrace tracking scripts.)
-* **Service**: A set of code that accepts requests and returns results. In SAP cloud Platform, it represents the different "parts" of a process that can be seen as a business entity, i.e., set of endpoints. The actual granularity of services is technology-dependent and Dynatrace will automatically identify services for your monitored processes based on the technologies you used to implement them.
+* **Service**: A set of code that accepts requests and returns results. In SAP Cloud Platform, it represents the different "parts" of a process that can be seen as a business entity, i.e., set of endpoints. The actual granularity of services is technology-dependent and Dynatrace will automatically identify services for your monitored processes based on the technologies you used to implement them.
 * **Purepath**: It's the horizontal view of a transaction in a monitored application environment. It is end-to-end, across all tiers of the transaction, from user requests to back-end database queries. [Purepaths]( https://www.dynatrace.com/support/help/server-side-services/service-analysis/how-does-purepath-visualization-help-me-analyze-web-requests-end-to-end/) allow you to analyse web requests end-to-end.
 * **Backtrace**: A service backtrace allows you to explore the [origin of a service request](https://www.dynatrace.com/support/help/server-side-services/service-analysis/how-can-i-explore-the-origin-of-service-requests/).
 * **Baselining**: A baseline describes the normal behavior of a service in terms of response time and service failure rates. Dynatrace automatically learns baselines via Artificial Intelligence. Baselines can be used for prediction-based anomaly detection instead of defining fixed thresholds. Baselining is guaranteed to be effective after 7 days of moderate load (50 req/min). Basic baselines may be available after 48 hours.

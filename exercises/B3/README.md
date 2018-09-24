@@ -59,7 +59,7 @@ The E2E tracing and collection of data is disabled by default for Java applicati
 1. After an instant a prompt will ask if you would like to record another transaction step. Click **Cancel**.<br /><br />
 ![](../../images/b3-te2-e2e-app-prompt.png)<br /><br>
 
-1. In the next URL you can give the URL of the store server if you have configure the automation of the upload of the trace. In our case, we will do it manually, so click **Cancel**.<br /><br />
+1. In the next URL you can give the URL of the store server if you have configured the automation of the upload of the trace. In our case, we will do it manually, so click **Cancel**.<br /><br />
 ![](../../images/b3-te2-e2e-app-prompt2.png)<br /><br>
 
 1. Go back to the UI5 Diagnostics window and copy the XML Output.<br /><br />

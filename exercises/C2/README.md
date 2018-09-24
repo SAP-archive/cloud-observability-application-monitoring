@@ -14,9 +14,9 @@ In this exercise, you will learn how to enable the Dyntrace Agent to monitor you
 
 1. Go to **Configuration** and enter the following details under **Dynatrace Connection Details**. Then test the connection and press the button **Save**.
     * Environment URL: `https://tgo909.dynatrace-managed.com/e/<YOUR-ENVIRONMENT-ID>` (e.g. https://tgo909.dynatrace-managed.com/e/2c21afcc-6512-4da3-8b0e-28bad7bbd235/)<br />
-      > Note: To find the Environment URL, log on to your Dynatrace SaaS monitoring environment, and copy its URL.
+      > Note: To find the Environment URL, log on to your Dynatrace environment, and copy its URL.
     * PaaS Token: `<YOUR-TOKEN>` (e.g. zf6qD7rIQmWZ-966lHPdo)<br />
-      > Note: To find the PaaS Token, log on to your Dynatrace SaaS monitoring environment, and navigate to **Settings** > **Integration** > **Platform as a Service**.<br />
+      > Note: To find the PaaS Token, log on to your Dynatrace environment, and navigate to **Settings** > **Integration** > **Platform as a Service**.<br />
 
     ![](../../images/c2-dt-aa4d-config2.png)<br /><br />
 

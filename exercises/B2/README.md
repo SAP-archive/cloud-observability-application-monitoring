@@ -31,7 +31,7 @@ In this exercise, you will learn how to configure the connection to your ABAP sy
 ![](../../images/b2-te2-maintain-rfcs.png)<br /><br />
 <br /><br />
 
-1. Sroll down to the section **RFC - Standard Mode** and select the 3 check boxes.<br /><br />
+1. Scroll down to the section **RFC - Standard Mode** and select the 3 check boxes.<br /><br />
 ![](../../images/b2-te2-maintain-rfcs-create-02.png)<br /><br />
 <br /><br>
 

@@ -14,7 +14,7 @@ In this exercise, you will learn how to use the integrated JMX console and how t
 1. In order to create a custom metric, we need the name of the attribute we want to observe. Navigate to **Monitoring** > **JMX Console**.<br /><br />
   ![](../../images/a2-custom-metric-01.png)<br /><br />
 
-1. Expand the path **com.sap.cloud.jmx** > **Persitense-ConnectionPools** > **defaultManaged** and copy the name **BorrowedConnectionsCount** to Notepad.<br /><br />
+1. Expand the path **com.sap.cloud.jmx** > **Persistense-ConnectionPools** > **defaultManaged** and copy the name **BorrowedConnectionsCount** to Notepad.<br /><br />
   ![](../../images/a2-custom-metric-02.png)<br /><br />
 
 
@@ -34,7 +34,7 @@ In this exercise, you will learn how to use the integrated JMX console and how t
 1. Then go to the terminal and copy the adapted command and press **Enter**. You should see at the end **JMX check created**.<br /><br />
   ![](../../images/a2-custom-metric-04.png)<br /><br />
 
-1. Go now to **Processes** under the **Monitoring** section and wait till the metrics **Borrowed Database Connections Count** appears.<br /><br />
+1. Go now to **Processes** under the **Monitoring** section and wait till the metric **Borrowed Database Connections Count** appears.<br /><br />
   ![](../../images/a2-custom-metric-05.png)
 
 <br /><br />
