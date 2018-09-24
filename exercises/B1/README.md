@@ -53,4 +53,5 @@ In the following exercises, we will focus on the trace analysis and show how to 
 <br /><br /><br />
 
 
-![](../../images/nav.png) [Previous exercise](../A3/README.md) ｜ [Next exercise](../B2/README.md) ｜ [Overview page](../../README.md)
+
+[![](../../images/nav-previous.png) Previous exercise](../A3/README.md) ｜ [![](../../images/nav-home.png) Overview page](../../README.md) ｜ [![](../../images/nav-next.png) Next exercise](../B2/README.md)

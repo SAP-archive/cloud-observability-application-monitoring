@@ -150,4 +150,6 @@ In this exercise, you will learn how to configure the connection to your ABAP sy
 
 <br /><br /><br />
 
-![](../../images/nav.png) [Previous exercise](../B1/README.md) ｜ [Next exercise](../B3/README.md) ｜ [Overview page](../../README.md)
+
+
+[![](../../images/nav-previous.png) Previous exercise](../B1/README.md) ｜ [![](../../images/nav-home.png) Overview page](../../README.md) ｜ [![](../../images/nav-next.png) Next exercise](../B3/README.md)

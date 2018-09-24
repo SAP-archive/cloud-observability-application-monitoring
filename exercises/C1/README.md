@@ -38,7 +38,7 @@ As explained on the [Dynatrace documentation](https://www.dynatrace.com/support/
     * End-to-end root cause analysis
     * Automated root cause identification through correlation and AI rules
     * Log analytics
-    
+
 #### Concepts
 Dynatrace has its own terminology that is sometimes not intuitive for developers used to the SAP Cloud Platform terminology. Here is a short list about the most important terms:
 
@@ -105,4 +105,5 @@ For our TechEd session, Dynatrace has sponsored a dedicated cluster. That means 
 
     <br /><br /><br />
 
-![](../../images/nav.png) [Previous exercise](../B3/README.md) ｜ [Next exercise](../C2/README.md) ｜ [Overview page](../../README.md)
+
+[![](../../images/nav-previous.png) Previous exercise](../B3/README.md) ｜ [![](../../images/nav-home.png) Overview page](../../README.md) ｜ [![](../../images/nav-next.png) Next exercise](../C2/README.md)

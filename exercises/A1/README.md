@@ -58,7 +58,7 @@ Email notifications can be configure via the SAP Cloud Platform console client. 
 
 1. Open Wordpad and prepare the following command:
     ```
-    neo set-alert-recipients -a <YOUR-SUBACCOUNT-NAME> -u <YOUR-EMAIL-OR-USERNAME> -e <YOUR-RECIPIENT-EMAILS> -h <HOST>
+    neo set-alert-recipients -a <YOUR-SUBACCOUNT-NAME> -b <YOUR-APP-NAME> -u <YOUR-EMAIL-OR-USERNAME> -e <YOUR-RECIPIENT-EMAILS> -h <HOST>
     ```
     Here is an example with my P-USER:<br />
 
@@ -74,4 +74,5 @@ Email notifications can be configure via the SAP Cloud Platform console client. 
 
 <br /><br /><br />
 
-![](../../images/nav.png) [Next exercise](../A2/README.md) ｜ [Overview page](../../README.md)
+
+[![](../../images/nav-previous.png) Preparation](../../preparation/README.md) ｜ [![](../../images/nav-home.png) Overview page](../../README.md) ｜ [![](../../images/nav-next.png) Next exercise](../A2/README.md)

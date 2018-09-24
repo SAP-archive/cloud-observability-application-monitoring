@@ -103,4 +103,6 @@ The E2E tracing and collection of data is disabled by default for Java applicati
 
 <br /><br /><br />
 
-![](../../images/nav.png) [Previous exercise](../B2/README.md) ｜ [Next exercise](../C1/README.md) ｜ [Overview page](../../README.md)
+
+
+[![](../../images/nav-previous.png) Previous exercise](../B2/README.md) ｜ [![](../../images/nav-home.png) Overview page](../../README.md) ｜ [![](../../images/nav-next.png) Next exercise](../C1/README.md)

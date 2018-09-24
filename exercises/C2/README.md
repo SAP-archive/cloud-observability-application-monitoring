@@ -132,4 +132,5 @@ In this exercise, you will learn how to enable the Dyntrace Agent to monitor you
   ![](../../images/c2-dt-dashboard.png)
   <br /><br /><br />
 
-![](../../images/nav.png) [Previous exercise](../C1/README.md) ｜ [Next exercise](../C3/README.md) ｜ [Overview page](../../README.md)
+
+[![](../../images/nav-previous.png) Previous exercise](../C1/README.md) ｜ [![](../../images/nav-home.png) Overview page](../../README.md) ｜ [![](../../images/nav-next.png) Next exercise](../C3/README.md)

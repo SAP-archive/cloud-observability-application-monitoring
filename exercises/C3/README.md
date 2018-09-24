@@ -56,4 +56,5 @@ In this exercise, you will learn how to define the preferred method to receive r
 <br /><br /><br />
 
 
-![](../../images/nav.png) [Previous exercise](../C2/README.md) ｜ [Next exercise](../C4/README.md) ｜ [Overview page](../../README.md)
+
+[![](../../images/nav-previous.png) Previous exercise](../C2/README.md) ｜ [![](../../images/nav-home.png) Overview page](../../README.md) ｜ [![](../../images/nav-next.png) Next exercise](../C4/README.md)

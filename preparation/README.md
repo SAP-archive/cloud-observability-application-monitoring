@@ -78,4 +78,4 @@ To finalize the setup for the exercises, a couple of mandatory steps are needed.
 <br /><br />
 <br /><br />
 
-![](../../images/nav.png) [Start exercise A1](../exercises/A1/README.md) ｜ [Overview page](../README.md)
+[![](../images/nav-home.png) Overview page](../../README.md) ｜ [![](../images/nav-next.png) Start exercise A1](../exercises/A1/README.md)

@@ -40,4 +40,4 @@ In this exercise, you will learn how to use the integrated JMX console and how t
 <br /><br />
 <br /><br />
 
-![](../../images/nav.png) [Previous exercise](../A1/README.md) ｜ [Next exercise](../A3/README.md) ｜ [Overview page](../../README.md)
+[![](../../images/nav-previous.png) Previous exercise](../A1/README.md) ｜ [![](../../images/nav-home.png) Overview page](../../README.md) ｜ [![](../../images/nav-next.png) Next exercise](../A3/README.md)

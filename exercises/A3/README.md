@@ -52,4 +52,5 @@ Platform APIs of SAP Cloud Platform are protected with OAuth 2.0 client credenti
 
 <br /><br /><br />
 
-![](../../images/nav.png) [Previous exercise](../A2/README.md) ｜ [Next exercise](../B1/README.md)  ｜ [Overview page](../../README.md)
+
+[![](../../images/nav-previous.png) Previous exercise](../A2/README.md) ｜ [![](../../images/nav-home.png) Overview page](../../README.md) ｜ [![](../../images/nav-next.png) Next exercise](../B1/README.md)

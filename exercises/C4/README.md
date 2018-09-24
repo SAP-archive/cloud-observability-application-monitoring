@@ -84,4 +84,6 @@ In this exercise, you will learn how to navigate through your Dynatrace environm
 
   <br /><br /><br />
 
-![](../../images/nav.png) [Previous exercise](../C3/README.md) ｜ [Overview page](../../README.md)
+
+
+[![](../../images/nav-previous.png) Previous exercise](../C3/README.md) ｜ [![](../../images/nav-home.png) Overview page](../../README.md)
