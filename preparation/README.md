@@ -9,7 +9,10 @@ To finalize the setup for the exercises, a couple of mandatory steps are needed.
 <br />
 
 ## 1. Restart the cloud HANA database
-1. In your web browser open the URL https://account.hanatrial.ondemand.com/ and press the **Log On** button to log into your SAP Cloud Platform trial subaccount.<br /><br />
+1. In your web browser open the URL https://account.hanatrial.ondemand.com/ and press the **Log On** button to log into your SAP Cloud Platform trial subaccount.
+    > Note: Do not accept the certificate (see step 2), otherwise you will need to open Chrome in incognito mode ;)
+
+    <br /><br />
     ![](../images/pre-login.png)<br /><br />
 
 1. Click **Cancel** in the next popup as we will not use any certificate to login.<br /><br />
@@ -28,7 +31,7 @@ To finalize the setup for the exercises, a couple of mandatory steps are needed.
 
 1. Press the button **Start**.<br /><br />
     ![](../images/pre-hana-restart-02.png)
->Note: the start of the database will take a couple of minutes so continue directly with the step 3.
+>Note: the start of the database will take a couple of minutes so continue directly with step 2.
 
 <br /><br />
 
@@ -66,6 +69,7 @@ To finalize the setup for the exercises, a couple of mandatory steps are needed.
 
 ## 3. Check the application
 1. Let check now that the setup was successful by starting the cloud application. Navigate to **Applications** > **Java Applications** and click on the application named **espmcloudweb**.<br /><br />
+
   ![](../images/pre-app-01.png)
 
 1. Click on the application URL to open it in the browser.<br /><br />
@@ -78,4 +82,4 @@ To finalize the setup for the exercises, a couple of mandatory steps are needed.
 <br /><br />
 <br /><br />
 
-[![](../images/nav-home.png) Overview page](../../README.md) ｜ [![](../images/nav-next.png) Start exercise A1](../exercises/A1/README.md)
+[![](../images/nav-home.png) Overview page](../README.md) ｜ [![](../images/nav-next.png) Start exercise A1](../exercises/A1/README.md)

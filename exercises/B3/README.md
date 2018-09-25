@@ -35,7 +35,10 @@ The E2E tracing and collection of data is disabled by default for Java applicati
 ![](../../images/b3-sapcp-stat2.png)<br /><br>
 
 ### 3. End-to-end trace analysis
-1. Go back to the SAP GUI and click the favorite **SAP Solution Manager: Work Centers** (Transaction SOLMAN_WORKCENTER).<br /><br />
+1. Go back to the SAP Solution Manager and click the **Exit** icon to navigate to favorites.<br /><br />
+![](../../images/b3-back-to-favorites.png)<br /><br>
+
+1. Click the favorite **SAP Solution Manager: Work Centers** (Transaction SOLMAN_WORKCENTER).<br /><br />
 ![](../../images/b3-te2-e2e.png)<br /><br>
 
 1. Under **Root Cause Analysis** click on the tile called **End-to-End Traces**.<br /><br />
@@ -50,8 +53,12 @@ The E2E tracing and collection of data is disabled by default for Java applicati
 1. Go back to the SAP Cloud Platform cockpit and open the application by clicking on the URL under the section **Overview**.<br /><br />
 ![](../../images/b3-sapcp-app-url.png)<br /><br>
 
-1. Open the UI5 Diagnostics with **CTRL+ALT+SHIFT+S** and under **Technical information** scroll down to the end. Then change the trace level to **HIGH** and press the **Start** button.<br /><br />
-![](../../images/b3-te2-e2e-ui5-diagnostics.png)<br /><br>
+1. Open the UI5 Diagnostics with **CTRL+ALT+SHIFT+S** and under **Technical information** scroll down to the end. Then change the trace level to **HIGH** and press the **Start** button.
+    > Note: Do not close the UI5 Diagnostics window as we will need it later on.
+
+      <br />
+
+      ![](../../images/b3-te2-e2e-ui5-diagnostics.png)<br /><br>
 
 1. Go back to the app and click on the first product to navigate to the product details page and wait for the prompt.<br /><br />
 ![](../../images/b3-te2-e2e-app.png)<br /><br>
@@ -83,7 +90,9 @@ The E2E tracing and collection of data is disabled by default for Java applicati
 1. Click on **Transaction Steps**.<br /><br />
 ![](../../images/b3-e2e-overview-02.png)<br /><br>
 
-1. Here you can see an overview of all uploaded business transactions and the recorded steps of the currently selected one. You can easily navigate between steps and transactions (for example if you have recorded additional steps by recording in the UI - instead of pressing cancel)<br /><br />
+1. Here you can see an overview of all uploaded business transactions and the recorded steps of the currently selected one. In our example we have recorded only one step but in case you want to recorded several steps, you would be able to easily navigate between them.
+
+> Tipp: to record several steps, you need to press the **OK** button instead of **Cancel** by recording with the UI5 Diagnostics tool.<br /><br />
   ![](../../images/b3-e2e-overview-03.png)<br /><br>
 
 1. Scroll down to the **Client-Server Analysis** section and click on the pie chart in response time distribution or the bars in most expensive HTTP requests, you would get additional information about which request is referenced.<br /><br />

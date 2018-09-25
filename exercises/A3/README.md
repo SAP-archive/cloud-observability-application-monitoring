@@ -19,19 +19,23 @@ Platform APIs of SAP Cloud Platform are protected with OAuth 2.0 client credenti
 1. Go to the **Platform API** tab and press the button **Create API client**.<br /><br />
 ![](../../images/a3-api-oauth2.png)<br /><br />
 
-1. In the dropdown list of the **Monitoring Service** select **Read Monitoring Data** and click **Save**.<br /><br />
+1. Select **Read Monitoring Data** in the dropdown list of the **Monitoring Service** and click **Save**.<br /><br />
 ![](../../images/a3-api-oauth3.png)<br /><br />
 
-1. Copy the **Client ID** and the **Client Secret** to Notepad and click **OK**.<br /><br />
+1. Copy the **Client ID** and the **Client Secret** to Notepad as we will need them later on. Then click **OK**.<br /><br />
 ![](../../images/a3-api-oauth-secret.png)<br /><br />
 
 ## 2. Consume monitoring API
-1. Open Postman and add the following parameters to call the monitoring API:
+To test if we are indeed able to consume the API, we will use [Postman](https://www.getpostman.com/), which is an API development environment to verify functionality, reliability, performance, and security.
+1. Click on the Postman shortcut on the Desktop to start the API development environment and add the following parameters to call the monitoring API:
     * Method: `POST`
     * URL:`https://api.hanatrial.ondemand.com/oauth2/apitoken/v1?grant_type=client_credentials`<br>
     * Authorization type: `Basic Auth`
     * Username: `<YOUR-CLIENT ID>` (e.g. 1921bc29-1be5-31b8-808f-5186e2fff400)
     * Password: `<YOUR-CLIENT SECRET>` (e.g. 08330416-5fb9-34eb-b503-6dd51038d9e2)<br /><br />
+
+    > Note: the start of Postman could take a minute as it should be first initialized.
+
 ![](../../images/a3-api-postman.png)<br /><br />
 
 1. Press the button **Send** to get your access token. Please copy it to Notepad.<br /><br />

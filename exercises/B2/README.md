@@ -10,12 +10,8 @@ In this exercise, you will learn how to configure the connection to your ABAP sy
 <br />
 
 ## 1. Technical systems configuration
-1. Double-click the favorite **SAP Solution Manager Configuratons** (Transation SOLMAN_SETUP).<br /><br />
+1. Double-click the favorite **SAP Solution Manager Configuratons** (Transaction SOLMAN_SETUP).<br /><br />
 ![](../../images/b2-te2-solman_setup.png)<br /><br />
-<br /><br />
-
-1. A new window in your browser will open automatically. Close the first popup by clicking on the button **Continue**.<br /><br />
-![](../../images/b2-te2-solman_setup-popup.png)<br /><br />
 <br /><br />
 
 1. Click on **Managed Systems Configuration** in the left menu. Then choose the ABAP backend system **TE3** and under **Configure System** click **Full Configuration**.
@@ -75,22 +71,26 @@ In this exercise, you will learn how to configure the connection to your ABAP sy
 
 ## 2. Cloud services configuration
 
-1. Before starting with configuration of the cloud service, let's add the SAP Cloud Platform certificate. Go to Chrome and open the URL `https://account.hanatrial.ondemand.com/` and logon. Then click on **Certificate** under **Secure**. (Be aware that the following procedure could be different if you use an other browser that Chrome).<br /><br />
+1. Before starting with configuration of the cloud service, let's add the SAP Cloud Platform certificate. <br />
+First go to Chrome and open the URL `https://account.hanatrial.ondemand.com/` and logon. Then click on **Certificate** under **Secure**. (Be aware that the following procedure could be different if you use an other browser that Chrome).<br /><br />
 ![](../../images/b2-te2-cloud-services-cert.png)<br /><br />
 
 1. In the popup, go to the **Details** tab and press the button **Copy to file**.<br /><br />
 ![](../../images/b2-te2-cloud-services-cert2.png)<br /><br />
 
-1. Click **Next** for the first 2 steps and that click on **Browse**. Select **Desktop** and name the file `sapcp.cer` and click **Save**.<br /><br />
+1. Click **Next** and then keep **DER encoded binary X.509** as format. Click again **Next**.<br /><br />
+![](../../images/b2-certificate-format.png)<br /><br />
+
+1. Then press the button **Browse**. Select **Desktop** and name the file `sapcp.cer` and click **Save**.<br /><br />
 ![](../../images/b2-te2-cloud-services-cert3.png)<br /><br />
 
 1. Click again **Next** and **Finish** to download the certificate.<br /><br />
 ![](../../images/b2-te2-cloud-services-cert4.png)<br /><br />
 
-1. Click on the favorite **Trust Manager** (Transaction STRUST).<br /><br />
+1. Then go back to the SAP Solution Manager UI and double-click on the favorite **Trust Manager** (Transaction STRUST) to import the certificate.<br /><br />
 ![](../../images/b2-te2-cloud-services-cert-strust01.png)<br /><br />
 
-1. Click the **Edit** icon and double-click on **SSL client SSL Client (Anonymous)** (Verify that you are on the right window ;). Then press the **Import** button.<br /><br />
+1. Click first the **Edit** icon and then double-click on **SSL client SSL Client (Anonymous)** (Verify that you are on the right window ;). Then press the **Import** button.<br /><br />
 ![](../../images/b2-te2-cloud-services-cert-strust02.png)<br /><br />
 
 1. Select your file **sapcp.cer** (that should saved on your desktop) and press the **Enter** button.<br /><br />
@@ -101,6 +101,10 @@ In this exercise, you will learn how to configure the connection to your ABAP sy
 
 1. Add the certificate as part of the trusted list by clicking on the button **Add to Certificate List** an finally press **Save**.<br /><br />
 ![](../../images/b2-te2-cloud-services-cert-strust05.png)<br /><br />
+
+    > Tipp: if the button **Add Certificate List** is not activate, please verify that you are in edit mode like mentioned in step 6.
+
+    <br />
 
 1. Go back to your browser tab with **Managed Systems Configuration** and press the button **Cloud Services**. If you closed the tab you can re-open it by ckicking again on the transaction favorite called **SAP Solution Manager Configurations** (Transaction SOLMAN_SETUP).<br /><br />
 ![](../../images/b2-te2-cloud-services.png)<br /><br />

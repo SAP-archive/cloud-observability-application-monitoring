@@ -16,7 +16,7 @@ In this exercise, you will learn how to enable the Dyntrace Agent to monitor you
     * Environment URL: `https://tgo909.dynatrace-managed.com/e/<YOUR-ENVIRONMENT-ID>` (e.g. https://tgo909.dynatrace-managed.com/e/2c21afcc-6512-4da3-8b0e-28bad7bbd235/)<br />
       > Note: To find the Environment URL, log on to your Dynatrace environment, and copy its URL.
     * PaaS Token: `<YOUR-TOKEN>` (e.g. zf6qD7rIQmWZ-966lHPdo)<br />
-      > Note: To find the PaaS Token, log on to your Dynatrace environment, and navigate to **Settings** > **Integration** > **Platform as a Service**.<br />
+      > Note: if you have closed the window with the PaaS token, you can find it under **Settings** > **Integration** > **Platform as a Service**.<br />
 
     ![](../../images/c2-dt-aa4d-config2.png)<br /><br />
 
@@ -91,7 +91,7 @@ In this exercise, you will learn how to enable the Dyntrace Agent to monitor you
     }
     ```
 
-      > Note: Don't forget to replace **YOUR_ENVIRONMENTID** with your Dynatrace environment ID (e.g. 2c21afcc-6512-4da3-8b0e-28bad7bbd235) and **Your YOUR_API_TOKEN** with the token that you have previously created (e.g. zf6qD7rIQmWZ-966lHPdo)<br />
+      > Note: Don't forget to replace **YOUR_ENVIRONMENTID** with your Dynatrace environment ID (e.g. 2c21afcc-6512-4da3-8b0e-28bad7bbd235) and **YOUR_API_TOKEN** with the token that you have previously created (e.g. zf6qD7rIQmWZ-966lHPdo). If you don't have copied the PaaS token to Notepad, you can find it under **Settings** > **Integration** > **Platform as a Service**.<br />
       Be aware that the last attribute **apiurl** is only needed if you are using a dedicated Dynatrace cluster. It's not needed if you are using Dynatrace SaaS. More information can be found in the [Dynatrace documentation](https://www.dynatrace.com/support/help/cloud-platforms/cloud-foundry/application-only/deployment/deploy-oneagent-on-sap-cloud-platform-for-application-only-monitoring/).
 
       ![](../../images/c2-cf-app-user-provided-service-02.png)<br /><br />
@@ -102,7 +102,7 @@ In this exercise, you will learn how to enable the Dyntrace Agent to monitor you
 
     <br />
 
-1. Import the file approuter.zip and its manifest from the student share in the folder Lesson_C and press the button **Deploy**.<br /><br />
+1. Import the file **approuter.zip** and its **manifest**, which has already the binding to the user-provided service called "dynatrace-service". You will find the 2 files in the folder Lesson_C of the student share. Finally press the button **Deploy**.<br /><br />
     ![](../../images/c2-cf-app-deploy-02.png)
     > Note: the start of the application may take up to 1 minute.
     <br />

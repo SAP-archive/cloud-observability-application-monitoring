@@ -57,26 +57,20 @@ https://wiki.wdf.sap.corp/wiki/display/HCPPerf/Mapping+Dynatrace%27s+concepts+to
 )
 <br /><br />
 
-## 2. Get a Dynatrace account from the SAP App Center
-If you don't have a Dynatrace account yet, you can get one from the [SAP App Center](https://www.sapappcenter.com/apps/16545/dynatrace#!overview). Click the **Buy Now** button to initiate the purchase order in the SAP App Center.
-<br />    
+## 2. How to get a Dynatrace environment
+
+For our TechEd session, Dynatrace has sponsored a dedicated cluster. That means that we have a kind of trial landscape only for us. All the users have been created so that you don't need to register. See details in step 3 to login.
+
+You can of course do exactly the same exercise with a Dynatrace trial environment later on if you want. The Dynatrace [free trial account](https://www.dynatrace.com/trial/) is then available for 15 days.
+
+> Note: Please just be aware that the URL of the Dynatrace environment will have a different structure and the attribute apiurl of the user-provided service is not needed for any other Dynatrace SaaS version (see [documentation](https://www.dynatrace.com/support/help/cloud-platforms/cloud-foundry/application-only/deployment/deploy-oneagent-on-sap-cloud-platform-for-application-only-monitoring/) for more details).
+
+If you want to buy a Dynatrace license, you can get one from the [SAP App Center](https://www.sapappcenter.com/apps/16545/dynatrace#!overview).<br />    
 ![](../../images/c1-dt-sap-app-center.png)
 <br />
 > Note: As this is a pay-as-you-go service, you will only be billed for what you use. To make it easy Dynatrace gives a credit of 1.000 host hours and 50.000 user sessions and 30.000 web checks.
 
-<br />
-
-
-As alternative, you can of course create a [free trial account](https://www.dynatrace.com/trial/) and test Dynatrace for 15 days.
-<br />    
-![](../../images/c1-dt-trial.png)<br /><br />
-<br />
-
-For our TechEd session, Dynatrace has sponsored a dedicated cluster. That means that we have a trial landscape only for us. All the users have been created so that you don't need to register. See details below to login.
-
-> Note: you can of course do exactly the same exercises with a Dynatrace trial environment later on. Please just note that the URL of the Dynatrace environment will have a different structure and the attribute apiurl of the user-provided service is not needed (see [documentation](https://www.dynatrace.com/support/help/cloud-platforms/cloud-foundry/application-only/deployment/deploy-oneagent-on-sap-cloud-platform-for-application-only-monitoring/) for more details).
-
-<br />
+<br /><br />
 
 
 ## 3. Login into your Dynatrace environment and create a token
@@ -99,6 +93,8 @@ For our TechEd session, Dynatrace has sponsored a dedicated cluster. That means 
 
 1. Type in a meaningful name (e.g. `sapcp-trial`) for your PaaS token and press the button **Generate** to create the PaaS token.<br /><br />
     ![](../../images/c1-dt-token2.png)<br />
+
+    > Tipp: Copy your PaaS token to Notepad as you will need it several times later on. 
 
     > Note: To view and manage your existing PaaS tokens, go to **Settings** > **Integration** > **Platform as a Service**.
 
