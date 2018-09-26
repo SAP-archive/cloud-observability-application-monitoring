@@ -63,4 +63,5 @@ This content is currently maintained by [Matthieu Pelatan](mailto:matthieu.pelat
 
 ## License
 Copyright (c) 2018 SAP SE or an SAP affiliate company. All rights reserved.
+
 This project is licensed under the Apache Software License, v. 2 except as noted otherwise in the  [LICENSE](LICENSE.txt) file.
