@@ -13,7 +13,7 @@ In this exercise, you will learn how to configure and consume monitoring REST AP
 
 Platform APIs of SAP Cloud Platform are protected with OAuth 2.0 client credentials. So we need to create an OAuth client and obtain an OAuth API access token from the OAuth access token endpoint to call the platform API methods.<br /><br />
 
-1. Click on the subaccount name (e.g. **p2000499901trial**) in the breadcrumb in order to go back to the subaccount level and click on **OAuth** under the **Security** section.<br /><br />
+1. To go back to the subaccount level, click on the subaccount name (e.g. **p2000499901trial**) in the breadcrumb. Then click on **OAuth** under the **Security** section.<br /><br />
 ![](../../images/a3-api-oauth.png)<br /><br />
 
 1. Go to the **Platform API** tab and press the button **Create API client**.<br /><br />
