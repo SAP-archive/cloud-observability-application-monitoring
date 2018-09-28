@@ -102,7 +102,7 @@ First go to Chrome and open the URL `https://account.hanatrial.ondemand.com/` an
 1. Add the certificate as part of the trusted list by clicking on the button **Add to Certificate List** an finally press **Save**.<br /><br />
 ![](../../images/b2-te2-cloud-services-cert-strust05.png)<br /><br />
 
-    > Tipp: if the button **Add Certificate List** is not activate, please verify that you are in edit mode like mentioned in step 6.
+    > Hint: if the button **Add Certificate List** is not activate, please verify that you are in edit mode like mentioned in step 6.
 
     <br />
 

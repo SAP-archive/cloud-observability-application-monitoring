@@ -94,7 +94,7 @@ If you want to buy a Dynatrace license, you can get one from the [SAP App Center
 1. Type in a meaningful name (e.g. `sapcp-trial`) for your PaaS token and press the button **Generate** to create the PaaS token.<br /><br />
     ![](../../images/c1-dt-token2.png)<br />
 
-    > Tipp: Copy your PaaS token to Notepad as you will need it several times later on. 
+    > Hint: Copy your PaaS token to Notepad as you will need it several times later on. 
 
     > Note: To view and manage your existing PaaS tokens, go to **Settings** > **Integration** > **Platform as a Service**.
 

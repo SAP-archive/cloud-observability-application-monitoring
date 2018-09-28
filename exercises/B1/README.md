@@ -20,7 +20,7 @@ Here are the main 4 capabilities that are relevant for monitoring applications r
 
 In the following exercises, we will focus on the trace analysis and show how to configure everything to analyse the hybrid application. At the end, we will be able to trace the request in order to get application performance data and insights about the request path.<br /><br />
 
-> Tipp: This [blog](https://blogs.sap.com/2018/02/02/brief-overview-of-hybrid-supportability-options-for-sap-cloud-platform/) gives a nice overview of the SAP Hybrid Supportability features.
+> Hint: This [blog](https://blogs.sap.com/2018/02/02/brief-overview-of-hybrid-supportability-options-for-sap-cloud-platform/) gives a nice overview of the SAP Hybrid Supportability features.
 
 <br /><br />
 

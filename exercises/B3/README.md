@@ -92,7 +92,7 @@ The E2E tracing and collection of data is disabled by default for Java applicati
 
 1. Here you can see an overview of all uploaded business transactions and the recorded steps of the currently selected one. In our example we have recorded only one step but in case you want to recorded several steps, you would be able to easily navigate between them.
 
-> Tipp: to record several steps, you need to press the **OK** button instead of **Cancel** by recording with the UI5 Diagnostics tool.<br /><br />
+> Hint: to record several steps, you need to press the **OK** button instead of **Cancel** by recording with the UI5 Diagnostics tool.<br /><br />
   ![](../../images/b3-e2e-overview-03.png)<br /><br>
 
 1. Scroll down to the **Client-Server Analysis** section and click on the pie chart in response time distribution or the bars in most expensive HTTP requests, you would get additional information about which request is referenced.<br /><br />

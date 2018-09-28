@@ -71,7 +71,7 @@ Email notifications can be configure via the SAP Cloud Platform console client. 
     ```
     neo set-alert-recipients -a <YOUR-SUBACCOUNT-NAME> -b espmcloudweb -u p2000499901 -p Welcome18 -e <YOUR-RECIPIENT-EMAILS> -h hanatrial.ondemand.com
     ```
-    > Tipp: If you don't want to put your own email address, you can use a service like [Mailinator](https://www.mailinator.com).
+    > Hint: If you don't want to put your own email address, you can use a service like [Mailinator](https://www.mailinator.com).
 
     > Note: As we are using an SAP Cloud Platform trial account, the host will be **hanatrial.ondemand.com**. You can get the list of all hostnames in the [official documentation](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/350356d1dc314d3199dca15bd2ab9b0e.html?q=regions).<br />
     In addition to that, be aware that the password attribute is optional in the command. If you don't add it, it will be asked by launching the script.
