@@ -37,7 +37,7 @@ To finalize the setup for the exercises, a couple of mandatory steps are needed.
 
 
 ## 2. Connect the Cloud Connector to your SAP Cloud Platform subaccount
-1. The hybrid application is using SAP Cloud Platform Connectivity and the Cloud Connector to consume an on-premise odata service. The Cloud connector has been already installed on your local machine but you need to bind it to your SAP Cloud Platform subaccount. Open the browser Google Chrome and go to `https://localhost:8443`. As we don't have the UI certificate installed, you will need to click on **Advanced** and **Proceed to localhost (unsafe)**.<br /><br />
+1. The hybrid application is using SAP Cloud Platform Connectivity and the Cloud Connector to consume an on-premise odata service. The Cloud connector has been already installed on your local machine but you need to bind it to your SAP Cloud Platform subaccount. Open the browser Google Chrome and go to [https://localhost8443](https://localhost:8443). As we don't have the UI certificate installed, you will need to click on **Advanced** and **Proceed to localhost (unsafe)**.<br /><br />
     ![](../images/pre-scc-01.png)<br /><br />
 
 1. Login to the Cloud Connector with the following credentials:
