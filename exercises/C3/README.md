@@ -45,8 +45,6 @@ In this exercise, you will learn how to define the preferred method to receive r
 1. Go to **Detect response time degradations** and select **using fixed thresholds** in the dropdown list.<br /><br />
     ![](../../images/c3-dt-alert-services-02.png)<br /><br />
 
-1. Add the failure --> using fixed + 0%
-
 1. In the over-alerting settings, change the value from **10** to **1** and set the sensitivity to **High**.<br /><br />
    ![](../../images/c3-dt-alert-services-03.png)<br /><br />
 
