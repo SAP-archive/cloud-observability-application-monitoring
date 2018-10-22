@@ -52,17 +52,17 @@ In this exercise, you will learn how to navigate through your Dynatrace environm
 
 ## 2. Debugging session
 1. This time we want to simulate an issue on the on-premise backend side. Double-click the icon Stop Cloud Connector.<br /><br />
-  ![](../../images/c4-scc-stop.png)<br /><br />
+    ![](../../images/c4-scc-stop.png)<br /><br />
+    > Note: As the machine where the Cloud Connector is installed has no agent installed, Dynatrace will analyse the problem as coming from the backend system. To have a better root-cause analysis of the issue, an option would be to download the Dynatrace agent and install it on the host of the Cloud Connector.
+    <br />
 
-  > Note: As the machine where the Cloud Connector is installed has no agent installed, Dynatrace will analyse the problem as coming from the backend system. To have a better root-cause analysis of the issue, an option would be to download the Dynatrace agent and install it on the host of the Cloud Connector.
-
-1. Open the Neo application (Webshop) and click on a product to trigger an error.<br /><br />
+1. Open the Neo application (Webshop) and click on a product to trigger an error. Then refresh the page a couple of time to simulate some load on the page.<br /><br />
   ![](../../images/c4-scc-stop-app-error.png)<br /><br />
 
 1. Open Dynatrace and go to **Problems**. First we need to reset the time filter, that is still active from the first debugging session. Click on the time settings on the top right corner and select **Last 1 hour** in the tab **Preset** to display the new problem.<br /><br />
   ![](../../images/c4-debug02-01.png)<br /><br />
 
-1. Wait a couple of minute until the new proble is visible and click on it<br /><br />
+1. Wait a couple of minute until the new problem is visible and click on it<br /><br />
     ![](../../images/c4-debug02-02.png)<br /><br />
 
 1. Click on the impacted service.<br /><br />
