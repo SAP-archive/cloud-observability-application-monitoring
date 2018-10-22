@@ -68,7 +68,7 @@ In this exercise, you will learn how to navigate through your Dynatrace environm
 1. Click on the impacted service.<br /><br />
   ![](../../images/c4-debug02-03.png)<br /><br />
 
-1. Under the section **Requests** click the red-colored tile **Failure rate**<br /><br />
+1. Under the section **Requests** click the red-colored tile **Failure rate**.<br /><br />
   ![](../../images/c4-debug02-04.png)<br /><br />
 
 1. Click on **Analyse response time degradation** to understand which requests fail.<br /><br />
