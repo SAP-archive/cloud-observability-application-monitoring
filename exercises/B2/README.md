@@ -5,7 +5,7 @@
 In this exercise, you will learn how to configure the connection to your ABAP system and your SAP cloud Platform subaccount for retrieving the statistical data and enabling the end-to-end trace analysis.<br /><br />
 
 #### Estimated time
-15 minutes
+20 minutes
 <br />
 <br />
 

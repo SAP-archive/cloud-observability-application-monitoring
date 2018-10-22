@@ -4,7 +4,7 @@
 To finalize the setup for the exercises, a couple of mandatory steps are needed. You will first access the SAP Cloud Platform cockpit and restart the cloud HANA database. Then you will connect the Cloud Connector to your SAP Cloud Platform subaccount and add an access control to access your backend system. Finally you will verify that the cloud application runs without any issue.
 
 #### Estimated time
-10 minutes
+15 minutes
 <br />
 <br />
 

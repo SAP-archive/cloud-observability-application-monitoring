@@ -6,7 +6,7 @@ In this exercise, you will learn how to use the integrated JMX console and how t
 <br/><br/>
 
 #### Estimated time
-6 minutes
+10 minutes
 <br />
 <br />
 

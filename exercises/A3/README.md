@@ -6,7 +6,7 @@ In this exercise, you will learn how to configure and consume monitoring REST AP
 
 
 #### Estimated time
-7 minutes
+10 minutes
 <br /><br />
 
 ## 1. Configure monitoring API

@@ -8,7 +8,7 @@ In this exercise, you will learn the basic monitoring features that SAP cloud Pl
 <br />
 
 #### Estimated time
-7 minutes
+10 minutes
 <br /><br />
 
 ## 1. Introduction to the monitoring service
@@ -80,6 +80,10 @@ Email notifications can be configure via the SAP Cloud Platform console client. 
 
 1. Copy and launch the command in the console to create alert notifications.
     > Note: As it takes up to 5 minutes to be activated, let's continue with the next exercise and create a custom metric.
+
+<br /><br />
+#### Optional
+If you want to check the alerting feature, you can change the threshold of the availability check to **0,0001** and verify that you get an email.
 
 <br /><br /><br />
 
