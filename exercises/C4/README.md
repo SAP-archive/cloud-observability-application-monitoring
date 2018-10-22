@@ -10,7 +10,8 @@ In this exercise, you will learn how to navigate through your Dynatrace environm
 <br />
 
 ## 1. Debugging session
-1. Copy the file **script-request-load.exe** from the student share folder and paste it to the desktop.
+1. Copy the file **script-request-load.exe** from the student share folder and paste it to the desktop.<br /><br />
+  ![](../../images/c4-copy-script.png)<br /><br />
 
 1. Open the terminal by clicking on the icon in the Windows menu.<br /><br />
   ![](../../images/c4-terminal-01.png)<br /><br />
