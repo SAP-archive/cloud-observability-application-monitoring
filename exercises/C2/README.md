@@ -96,7 +96,7 @@ In this exercise, you will learn how to enable the Dyntrace Agent to monitor you
 
       ![](../../images/c2-cf-app-user-provided-service-02.png)<br /><br />
 
-1. To bind the Dynatrace service to the application, you can either bind the created Dynatrace service to your application in your manifest.yml file prior to deploying/pushing your app or you can bind the service to your app in the SAP Cloud Platform cockpit and restage the application afterward via the Cloud foundry CLI. For the sake of time, we will just redeploy the application. Go to **Applications** and press the button **Deploy Application**.
+1. To bind the Dynatrace service to the application, you can either bind the created Dynatrace service to your application in your manifest.yml file prior to deploying/pushing your app or you can bind the service to your app in the SAP Cloud Platform cockpit and restage the application afterward via the Cloud foundry CLI. For the sake of time, we will just redeploy the application. Go to **Applications** and press the button **Deploy Application**. The deployment will take a couple of minutes.
     ![](../../images/c2-cf-app-deploy-01.png)<br /><br />
     > Note: If you have not called your service **dynatrace-service**, you will need to edit the manifest file of the app router.
 
