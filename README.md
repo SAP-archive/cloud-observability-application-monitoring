@@ -28,9 +28,10 @@ Nethertheless, here is a summary of the requirements that re needed if you want 
 
 ## Preparation (Mandatory)
 To finalize the setup for the exercises, some mandatory steps are required before starting the exercises:
-1.	Access the SAP Cloud Platform cockpit and restart the cloud HANA database.
-2.	Connect the Cloud Connector to your SAP Cloud Platform subaccount and add an access control.
-3.	Verify that the cloud application runs without any issue.<br /><br />
+  1. Access the SAP Cloud Platform cockpit and restart the cloud HANA database.
+  1.	Connect the Cloud Connector to your SAP Cloud Platform subaccount and add an access control.
+  1.	Verify that the cloud application runs without any issue.<br />
+
 Follow the instructions on the [preparation page](/preparation/README.md) to get all the details.
 <br /><br />
 
